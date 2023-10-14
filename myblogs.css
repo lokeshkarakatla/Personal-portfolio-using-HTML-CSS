@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    margin:0%;
+    border: 0%;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+body{
+    background-color: #0e2533;
+    z-index: 0;
+}
+
+.f1{
+    color: gray;
+    opacity: 0.1;
+    font-size:100px;
+    margin-top: -10px;
+    z-index: 0;
+
+}
+
+.blogdiv{
+    width: 300px;
+    height: 600px;
+    background-color: rgb(71, 67, 67);
+    margin: 30px;
+    float: left;
+    border-radius: 10px;
+    
+}
+
+
+.blogdiv:hover img{
+
+    
+    transition: 1s;
+    transform: scale(1.1); 
+    
+}
+
+.indiv{
+    width: 100%;
+    height: 50%;
+    background-color: green;
+    border-radius: 10px;
+
+}
+
+.textdiv{
+    color: white;
+    padding: 10px;
+    transition: 1s;
+
+}
+
+.textdiv:hover{
+    color: green;
+    transition: 1s;
+}
+
+.textdivp{
+    
+    color: white;
+    padding: 10px;
+    opacity: 0.6;
+}
+
+
+
+.side-menu{
+    width: 100px;
+    height: 500px;
+    position: fixed;
+    top: 150px;
+    left: 1400px;
+    z-index: 1;
+}
+
+#sideicon{
+    margin: 30px;
+    font-size: 20px;
+    color: white;
+    
+}

@@ -1,0 +1,146 @@
+*{
+    padding: 0%;
+    margin:0%;
+    border: 0%;
+    font-family: 'Cabin', sans-serif;
+    
+
+}
+
+body{
+    background-color: #0e2533;
+    z-index: 0;
+}
+
+.f1{
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+
+#f1{
+    color: gray;
+    opacity: 0.1;
+    font-size:70px;
+    z-index: 0;
+}
+
+#f2{
+    color: white;
+}
+
+
+.info{
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    width: 400px;
+    height: 500px;
+    margin-left: 280px;
+    float: left;
+}
+
+#detailicon{
+    color: white;
+    font-size: 20px;
+}
+
+.detailiconhead{
+    margin: 10px;
+}
+
+#ip1{
+    border-radius: 10px;
+    background-color: rgb(71, 67, 67);
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+
+
+}
+
+#ip1 #ip2::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+#ip2{
+    border-radius: 10px;
+    background-color: rgb(71, 67, 67);
+    width: 520px;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+
+
+}
+
+#ip3{
+    border-radius: 10px;
+    background-color: rgb(71, 67, 67);
+    width: 520px;
+    height: 200px;
+    padding-left: 10px;
+    border: none;
+}
+
+
+
+
+
+input, select, textarea{
+    color: white;
+}
+
+
+
+.side-menu{
+    width: 100px;
+    height: 500px;
+    position: absolute;
+    top: 150px;
+    left: 1400px;
+    z-index: 1;
+}
+
+#sideicon{
+    margin: 30px;
+    font-size: 20px;
+    color: white;
+    
+}
+
+
+
+.CV{
+    width: 225px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px green solid;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 17px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    background-color: #0e2533;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.dcv{
+    background-color: green; 
+    width: 55px;
+     height: 50px;
+      border-radius: 100%;
+       float: right; 
+       display: flex; 
+       justify-content: center; 
+       align-items: center;
+       margin-top: -1.5px;
+}
+
+
+button:hover{
+    transition: background-color 1s ease;
+    background-color: green;
+    
+    
+}
+
